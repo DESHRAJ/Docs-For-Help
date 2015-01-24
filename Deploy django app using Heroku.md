@@ -26,6 +26,7 @@ For example, open the following link: https://github.com/DESHRAJ/Youtube-Downloa
 6. If your project is not a git repository, then make it a Git repository by running this command in the root directory of your project: 
 
 			git init 
+
 You now have a functioning git repository that contains a simple application as well as a requirements.txt file, which is used by Python’s dependency manager, Pip.
 
 7. then run the following command in the projects root directory : 
