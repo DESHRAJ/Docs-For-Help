@@ -27,6 +27,16 @@ For example, open the following link: https://github.com/DESHRAJ/Youtube-Downloa
 
 			git init 
 
+6.a. create your first commit by running:
+
+  			git add requirments.txt
+  			git commit -m "Initial commit."
+		
+if you do not create first commit then later on running git push heroku master command you get following error:
+
+			error:src refspec master does not match any
+			error:failed to push some refs
+			
 You now have a functioning git repository that contains a simple application as well as a requirements.txt file, which is used by Python’s dependency manager, Pip.
 
 7. then run the following command in the projects root directory : 
